@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="orange">orange</string>
+    <string name="yellow">yellow</string>
+    <string name="blue">blue</string>
+    <string name="indigo">indigo</string>
+    <string name="violet">violet</string>
 </resources>
