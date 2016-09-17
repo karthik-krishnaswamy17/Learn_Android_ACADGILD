@@ -1,16 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_parent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00ffcc"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.android.developer.learn_android_acadgild.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/email_edit_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#FFF"
+            android:hint="@string/hint_email"
+            android:padding="8dp"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_edit_txt"
+            android:layout_marginBottom="5dp"
+            android:background="#FFF"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/password"
+            android:layout_marginBottom="20dp"
+            android:padding="8dp"
+            android:text="@string/bt_login"
+            android:textAllCaps="true"
+            android:textColor="#00cc99"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bt_login"
+            android:layout_centerHorizontal="true"
+            android:text="@string/new_signup"
+            android:textColor="#FFF"
+            android:textSize="14sp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
 </RelativeLayout>

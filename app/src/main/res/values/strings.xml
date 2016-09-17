@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="app_name">LoginScreen</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="bt_login">login</string>
+    <string name="new_signup">Not a member? Sign up now.</string>
 </resources>
