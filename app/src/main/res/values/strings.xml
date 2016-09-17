@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="hide_button">Hide</string>
+    <string name="show_button">Show</string>
 </resources>

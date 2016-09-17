@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.android.developer.learn_android_acadgild.MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/img_profile"
         android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:src="@drawable/profile" />
+
+    <Button
+        android:id="@+id/bt_id"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:layout_marginTop="10dp"
+        android:background="#00cc99"
+        android:text="@string/hide_button"
+        android:textColor="#FFF" />
+
+</LinearLayout>
