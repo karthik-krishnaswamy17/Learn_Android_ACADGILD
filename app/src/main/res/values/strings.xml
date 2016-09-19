@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="app_name">Google Search Query App</string>
+    <string name="search">What would you like to Search ?</string>
+    <string name="bt_search">Search</string>
 </resources>
