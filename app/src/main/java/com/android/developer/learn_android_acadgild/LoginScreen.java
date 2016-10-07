@@ -1,10 +1,9 @@
 package com.android.developer.learn_android_acadgild;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-public class LoginScreen extends AppCompatActivity {
+public class LoginScreen extends BaseMenuActivity {
     TextView textView;
     private String welcomeMessage = "Welcome";
 
