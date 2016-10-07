@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int id = v.getId();
         switch (id) {
             case R.id.ascending: {
-                Toast.makeText(this, "Sorted in Ascending Order", Toast.LENGTH_SHORT).show();
                 if (adapter != null)
                     adapter.clear();
                 /*
@@ -59,17 +58,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 adapter.addAll(list_months_asce);
                 adapter.notifyDataSetChanged();
-
+                Toast.makeText(this, "Sorted in Ascending Order", Toast.LENGTH_SHORT).show();
                 break;
             }
 
             case R.id.descending: {
-                Toast.makeText(this, "Sorted in Descending Order", Toast.LENGTH_SHORT).show();
-                list_months_desc = new ArrayList<>(Arrays.asList(descending_months));
                 if (adapter != null)
                     adapter.clear();
                 adapter.addAll(list_months_desc);
                 adapter.notifyDataSetChanged();
+                Toast.makeText(this, "Sorted in Descending Order", Toast.LENGTH_SHORT).show();
                 break;
             }
 
