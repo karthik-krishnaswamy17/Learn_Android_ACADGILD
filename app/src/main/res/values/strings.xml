@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">SortingList</string>
-    <string name="ascending">Ascending</string>
-    <string name="descending">Descending</string>
+    <string name="app_name">Custom List App</string>
 </resources>
