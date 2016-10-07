@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="app_name">Load Image from Gallery</string>
+    <string name="load">Load Image</string>
 </resources>
