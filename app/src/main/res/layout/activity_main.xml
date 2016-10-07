@@ -3,42 +3,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    android:gravity="center_vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000000"
     tools:context="com.android.developer.learn_android_acadgild.MainActivity">
 
+    <Button
+        android:id="@+id/ascending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/ascending" />
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
+    <Button
+        android:id="@+id/descending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/descending" />
 
-        android:src="@drawable/logo" />
-
-    <LinearLayout
-        android:id="@+id/container"
+    <ListView
+        android:id="@+id/list_month"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/logo">
+        android:layout_below="@id/ascending"
+        android:divider="@android:color/background_light"
+        android:dividerHeight="1px"></ListView>
 
-        <EditText
-            android:id="@+id/txt_search"
-            android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="@string/search" />
-
-        <ImageView
-            android:id="@+id/search_img"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:hint="@string/bt_search"
-            android:src="@drawable/search_icon" />
-    </LinearLayout>
 </RelativeLayout>

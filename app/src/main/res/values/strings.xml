@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Google Search Query App</string>
-    <string name="search">What would you like to Search ?</string>
-    <string name="bt_search">Search</string>
+    <string name="app_name">SortingList</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
 </resources>
