@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.android.developer.learn_android_acadgild.R;
 import com.android.developer.learn_android_acadgild.pojo.Versions;
@@ -53,11 +54,14 @@ public class CustomAdapter extends BaseAdapter {
             v = layoutInflater.inflate(R.layout.layout_version_image, parent, false);
             imageHolder = new ImageHolder();
             imageHolder.imageView = (ImageView) v.findViewById(R.id.img_version);
+            imageHolder.txt_title = (TextView) v.findViewById(R.id.txt_title);
             v.setTag(imageHolder);
         } else {
             imageHolder = (ImageHolder) v.getTag();
         }
-        imageHolder.imageView.setImageResource(version.get(position).getImageId());
+        Versions v_obj = version.get(position);
+        imageHolder.imageView.setImageResource(v_obj.getImageId());
+        imageHolder.txt_title.setText(v_obj.getTitle());
         return v;
     }
 
@@ -65,4 +69,5 @@ public class CustomAdapter extends BaseAdapter {
 
 class ImageHolder {
     ImageView imageView;
+    TextView txt_title;
 }
