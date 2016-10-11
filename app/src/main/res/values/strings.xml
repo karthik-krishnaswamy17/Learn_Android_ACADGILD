@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="app_name">ActionBarMenu</string>
+    <string name="mainactivity">MainActivity</string>
+    <string name="ToolbarTitle">ActionBarMenu</string>
+    <string name="camera">Camera</string>
+    <string name="video">Video</string>
+    <string name="email">Email</string>
 </resources>
