@@ -10,7 +10,8 @@
     tools:context="com.android.developer.learn_android_acadgild.MainActivity">
 
     <TextView
+        android:id="@+id/txt_submenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/submenuxmlactvity" />
 </RelativeLayout>

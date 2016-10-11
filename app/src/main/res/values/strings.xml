@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="app_name">SubMenuXml</string>
+    <string name="text_color">TEXT COLOR</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="submenuxmlactvity">SubMenuXmlActvity!</string>
 </resources>
