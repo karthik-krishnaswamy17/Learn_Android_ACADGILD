@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.developer.learn_android_acadgild.CustomAdapter.Adapter;
@@ -50,17 +51,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
+        menu.setHeaderTitle(R.string.select);
         menu.add(0, call_id, 1, call);
         menu.add(0, sms_id, 2, R.string.sms);
-
     }
 
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         int id = item.getItemId();
         AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
-        int pos = info.position;
-        String phone = contacts.get(pos).getPhone();
+        View v = info.targetView;
+        String phone = ((TextView) v.findViewById(R.id.phone)).getText().toString();
         switch (id) {
             case call_id: {
                 if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
