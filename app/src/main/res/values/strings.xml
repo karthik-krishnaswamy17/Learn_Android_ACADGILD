@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="app_name">Fragment APP</string>
+    <string name="enter_any_text">Enter any Text</string>
+    <string name="submit">Submit</string>
 </resources>
