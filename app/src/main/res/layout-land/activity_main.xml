@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.android.developer.learn_android_acadgild.MainActivity">
+
+    <fragment
+        android:id="@+id/list_fragment"
+        class="com.android.developer.learn_android_acadgild.Fragment_LayoutNames"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/details_description"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="#0c0c42"
+        android:textAlignment="center"></FrameLayout>
+</LinearLayout>
