@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="youtube">Youtube</string>
+    <string name="blogger">Blogger</string>
 </resources>
