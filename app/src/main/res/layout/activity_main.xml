@@ -10,7 +10,55 @@
     tools:context="com.android.developer.learn_android_acadgild.MainActivity">
 
     <TextView
+        android:id="@+id/nameLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/nameLabel"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ageLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameLabel"
+        android:text="@string/age" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/ageLabel"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/photoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ageLabel"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/employee_photo"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/employeePhoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/photoLabel"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+
+        />
+
+
 </RelativeLayout>
