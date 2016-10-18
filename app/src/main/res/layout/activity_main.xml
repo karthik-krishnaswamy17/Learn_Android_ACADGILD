@@ -10,7 +10,18 @@
     tools:context="com.android.developer.learn_android_acadgild.MainActivity">
 
     <TextView
+        android:id="@+id/label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/Label"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:background="#565256"
+        android:textColor="#ffff"
+        android:textSize="22sp" />
 </RelativeLayout>
