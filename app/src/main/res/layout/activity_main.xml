@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f6eff6"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -10,7 +11,73 @@
     tools:context="com.android.developer.learn_android_acadgild.MainActivity">
 
     <TextView
+        android:id="@+id/information_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/space"
+        android:fontFamily="sans-serif"
+        android:text="Information"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information_label"
+        android:layout_margin="@dimen/space"
+        android:ems="10"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_margin="@dimen/space"
+        android:ems="10"
+        android:hint="@string/enterAge"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age"
+        android:layout_margin="@dimen/space"
+        android:ems="10"
+        android:hint="@string/enterPhone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_margin="@dimen/space"
+        android:ems="10"
+        android:hint="@string/enterCity" />
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/space"
+        android:background="#e94d9e"
+        android:text="@string/save"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/bt_show"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_save"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/space"
+        android:background="#e94d9e"
+        android:text="@string/show"
+        android:textColor="#ffff" />
 </RelativeLayout>

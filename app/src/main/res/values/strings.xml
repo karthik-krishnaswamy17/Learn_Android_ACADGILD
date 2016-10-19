@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="app_name">SharedPrefAssign</string>
+    <string name="name">Enter Name</string>
+    <string name="enterAge">Enter Age</string>
+    <string name="enterPhone">Enter Phone</string>
+    <string name="enterCity">Enter City</string>
+    <string name="save">SAVE</string>
+    <string name="show">SHOW</string>
 </resources>
