@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="app_name">PreferencesExercise</string>
+    <string name="set_password">Set Your Password</string>
+    <string name="settings">Preference Settings</string>
+    <string-array name="reminder">
+        <item>1m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>15m</item>
+        <item>20m</item>
+    </string-array>
+    <string-array name="reminder_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+
+    </string-array>
+
+
 </resources>
