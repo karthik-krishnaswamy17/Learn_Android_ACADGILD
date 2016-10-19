@@ -24,17 +24,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        display();
-
-    }
-
-    private void display() {
-        boolean screenLock;
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
-        screenLock = sp.getBoolean("screenLock", false);
-        Log.v("state", "screenLock:" + screenLock);
-        String reminderValue;
-        reminderValue = sp.getString("keyReminder", null);
-        Log.v("state", "Reminder:" + reminderValue);
     }
 }
