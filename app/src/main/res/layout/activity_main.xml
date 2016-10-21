@@ -9,8 +9,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.android.developer.learn_android_acadgild.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/bt_givePermission"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="183dp"
+        android:text="Give Camera Permission" />
+
+    <Button
+        android:id="@+id/bt_checkPermission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_givePermission"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Check Camera Permission" />
 </RelativeLayout>
