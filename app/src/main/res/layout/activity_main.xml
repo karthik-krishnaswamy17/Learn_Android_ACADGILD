@@ -9,8 +9,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.android.developer.learn_android_acadgild.MainActivity">
 
-    <TextView
+
+    <Button
+        android:id="@+id/bt_check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignLeft="@+id/bt_save"
+        android:layout_alignStart="@+id/bt_save"
+        android:layout_below="@+id/bt_save"
+        android:layout_marginTop="18dp"
+        android:text="CHECK FILE" />
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp"
+        android:text="SAVE FILE" />
+
 </RelativeLayout>
