@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.bt_saveImage: {
                 try {
-                    Bitmap bm = BitmapFactory.decodeResource(getResources(), R.drawable.profile);
+                    Bitmap bm = BitmapFactory.decodeResource(getResources(), R.drawable.logo);
                     File Folder = Environment.getExternalStoragePublicDirectory(folder);
                     if (!Folder.exists())
                         Folder.mkdir();
