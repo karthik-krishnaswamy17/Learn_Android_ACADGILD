@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Learn_Android_ACADGILD</string>
+    <string name="app_name">RevealDialog</string>
+    <string name="dg_title">Thanks its Working</string>
+    <string name="dg_sub_title">This dialog opens with Reveal Effect</string>
 </resources>
