@@ -1,4 +1,3 @@
-# Learn_Android_ACADGILD
-Modified App Name and Icon
+# Android Version App Using Recycler View,Card View and FloatingAction Button
 
-![alt tag] (https://github.com/karthik-krishnaswamy17/Learn_Android_ACADGILD/blob/Day1Assignment_2nd/App_Name_Snapshot.png)
+![alt tag] (https://github.com/karthik-krishnaswamy17/Learn_Android_ACADGILD/blob/Assignment10.2/output_2.gif)
