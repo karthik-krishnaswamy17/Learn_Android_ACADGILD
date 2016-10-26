@@ -9,24 +9,57 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.android.developer.learn_android_acadgild.MainActivity">
 
-    <TextView
-        android:id="@+id/id_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:background="#676765"
-        android:padding="5dp"
-        android:text="@string/fadeinText"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        android:visibility="invisible" />
-
     <Button
-        android:id="@+id/bt_startAnim"
+        android:id="@+id/bt_startDownload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
-        android:text="@string/start_animation" />
+        android:text="@string/start_download" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bt_startDownload"
+        android:layout_marginTop="13dp"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/progressBar1"
+        android:layout_marginTop="13dp"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/progressBar2"
+        android:layout_marginTop="13dp"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/progressBar3"
+        android:layout_marginTop="13dp"
+        android:visibility="invisible" />
+
+
 </RelativeLayout>
